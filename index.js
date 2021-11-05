@@ -22,7 +22,7 @@ const { base64encode, base64decode } = require('nodejs-base64');
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("Xin chào cậu chủ Nguyễn Hải Đăng");
+    res.write("Xin chào cậu chủ Hoàng Xuân Quyền");
     res.end();
 });
 
