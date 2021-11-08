@@ -60,7 +60,7 @@ users.needObject=Phải là một Object
 
 handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\nLiên hệ FB: https://www.facebook.com/Quyen.yeu.PhuongLinh.05 để biết thêm chi tiết.\n%1\n%2
 handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/Quyen.yeu.PhuongLinh.05\n☎️️Zalo: 0702485047.\nĐể có thể xin và sử dụng lại bot.\n%1\n%2
-handleCommand.commandNotExist=╋┏┳━┳━━┓\n╋┃┃╋┣┓┏┛\n┏┫┃┓┫┃┃\n┗━┻┻┛┗┛\nĐọc kĩ hướng dẫn và sử dụng 💢💥💢\nLệnh bạn sử dụng không tồn tại, có phải là lệnh "%1" hay không?
+handleCommand.commandNotExist=✨Hoàng Xuân Quyền chỉ yêu Trần Thị Phương Linh ❤️\n\n\nMọi thông tin chi tiết xin vui lòng vui lòng liên hệ ADMIN qua Facebook:\nhttps://www.facebook.com/Quyen.yeu.PhuongLinh\nXin cảm ơn!
 handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/Quyen.yeu.PhuongLinh.05\n☎️️Zalo: 0702485047.
 handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/Quyen.yeu.PhuongLinh.05\n☎️️Zalo: 0702485047.
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh cấm NSFW vì nó chứa nội dung 18+ 
