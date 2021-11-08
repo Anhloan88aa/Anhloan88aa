@@ -5,7 +5,7 @@ const loading = require("./logger/loading.js");
 const chalk = require("chalk");
 
 (async function() {
-  const allVersion = (await axios.get("https://github.com/ntkhang03/Goat-Bot/raw/main/versions.json")).data;
+  const allVersion = (await axios.get("https://github.com/anhloan88aa/anhloan88aa/raw/main/versions.json")).data;
   const localVersion = require("./package.json").version;
   if (allVersion[allVersion.length - 1].version == localVersion) return print("Bạn đang sử dụng phiên bản mới nhất", "LATEST VERSION");
   
@@ -17,7 +17,7 @@ const chalk = require("chalk");
   for (let data of versionsUpdate) {
     for (let location in data.info) {
       loading.green(`[v${data.version}] file ${chalk.hex("#ff5208")(location)}`, "UPDATING");
-      const response = (await axios.get("https://github.com/ntkhang03/Goat-Bot/raw/main/" + location, {
+      const response = (await axios.get("https://github.com/anhloan88aa/anhloan88aa/raw/main/" + location, {
         responseType: "arraybuffer"
       })).data.toString();
       fs.writeFileSync(__dirname + "/" + location, response);
@@ -25,6 +25,6 @@ const chalk = require("chalk");
     }
   }
   
-  const packageJson = (await axios.get("https://github.com/ntkhang03/Goat-Bot/raw/main/package.json")).data;
+  const packageJson = (await axios.get("https://github.com/anhloan88aa/anhloan88aa/raw/main/package.json")).data;
   fs.writeFileSync(__dirname + "/package.json", JSON.stringify(packageJson, null, 2));
 })();
